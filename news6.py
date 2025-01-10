@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 import json
 
 # Get your API key from NewsAPI
-api_key = 'bdd76d55964f4c09a1f63e609c7b2e0d'
 newsapi = NewsApiClient(api_key=api_key)
 
 # Calculate the date 30 days ago
